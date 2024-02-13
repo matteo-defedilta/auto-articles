@@ -19,11 +19,13 @@ export const StyledHeader = styled.nav`
 	svg {
 		font-size: 2em;
 	}
+
 	a {
 		font-weight: bold;
 		margin: 0 1em;
 		cursor: pointer;
 		padding: 10px 20px;
+		text-decoration: none;
 
 		&:hover {
 			background-color: #9c8dff;
